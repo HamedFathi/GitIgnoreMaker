@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Hamed Fathi</Authors>
+    <Company />
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <Version>2.0.0</Version>
+    <LangVersion>latest</LangVersion>
+    <PackageProjectUrl>https://github.com/HamedFathi/GitIgnoreMaker</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/HamedFathi/GitIgnoreMaker</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
-
+  
 </Project>

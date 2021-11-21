@@ -1,5 +1,4 @@
-﻿using System;
-using GitIgnoreMaker;
+﻿using GitIgnoreMaker;
 
 namespace GitIgnoreMakerSample
 {
@@ -7,9 +6,8 @@ namespace GitIgnoreMakerSample
     {
         static void Main(string[] args)
         {
-            var gitIgnoreList = GitIgnore.GetList();
-
-            var gitIgnoreTemplate = GitIgnore.GetTemplate("visualstudio", "visualstudiocode", "rider");
+            var gitIgnoreTemplateNames = GitIgnore.GetAvailableTemplateNames();
+            var gitIgnoreTemplate = GitIgnore.CreateTemplate("visualstudio", "visualstudiocode", "rider");
         }
     }
 }

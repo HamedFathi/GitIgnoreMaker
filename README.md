@@ -1,7 +1,7 @@
 ![git](https://user-images.githubusercontent.com/8418700/141340397-ba46ceee-ffee-4e02-a33e-372967fce97e.png)
 
 
-This library works based on https://www.gitignore.io REST APIs.
+This library works based on [gitignore](https://www.toptal.com/developers/gitignore) REST APIs.
 
 ### [Nuget]()
 
@@ -20,8 +20,12 @@ dotnet add package GitIgnoreMaker
 ```cs
 using GitIgnoreMaker;
 
-var gitIgnoreList = GitIgnore.GetList();
-var gitIgnoreTemplate = GitIgnore.GetTemplate("visualstudio", "visualstudiocode", "rider");
+// Returns whole available template names for making a '.gitignore' file. 
+// e.g. 'visualstudio', 'visualstudiocode', 'rider', ...
+IEnumerable<string> gitIgnoreTemplateNames = GitIgnore.GetAvailableTemplateNames();
+
+// Create your '.gitignore' file based on titles of above list.
+string gitIgnoreTemplate = GitIgnore.CreateTemplate("visualstudio", "visualstudiocode", "rider");
 ```
 
 <hr/>
