@@ -28,5 +28,9 @@ IEnumerable<string> gitIgnoreTemplateNames = GitIgnore.GetAvailableTemplateNames
 string gitIgnoreTemplate = GitIgnore.CreateTemplate("visualstudio", "visualstudiocode", "rider");
 ```
 
+![1](https://user-images.githubusercontent.com/8418700/142763950-47e4af8a-7714-44fb-a209-461c758be44a.png)
+
+![2](https://user-images.githubusercontent.com/8418700/142763957-277875ee-fa87-49a7-8cf0-e469a17ddaf4.png)
+
 <hr/>
 <div>Icons made by <a href="" title="riajulislam">riajulislam</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
