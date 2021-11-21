@@ -3,7 +3,7 @@
 
 This library works based on [gitignore](https://www.toptal.com/developers/gitignore) REST APIs.
 
-### [Nuget]()
+### [Nuget](https://www.nuget.org/packages/GitIgnoreMaker/)
 
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://opensource.org/licenses/MIT)
 ![Nuget](https://img.shields.io/nuget/v/GitIgnoreMaker)
