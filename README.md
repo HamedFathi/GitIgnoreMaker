@@ -5,6 +5,10 @@ This library works based on https://www.gitignore.io REST APIs.
 
 ### [Nuget]()
 
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://opensource.org/licenses/MIT)
+![Nuget](https://img.shields.io/nuget/v/GitIgnoreMaker)
+![Nuget](https://img.shields.io/nuget/dt/GitIgnoreMaker)
+
 ```
 Install-Package GitIgnoreMaker
 
