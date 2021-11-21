@@ -28,7 +28,7 @@ IEnumerable<string> gitIgnoreTemplateNames = GitIgnore.GetAvailableTemplateNames
 string gitIgnoreTemplate = GitIgnore.CreateTemplate("visualstudio", "visualstudiocode", "rider");
 ```
 
-![1](https://user-images.githubusercontent.com/8418700/142763950-47e4af8a-7714-44fb-a209-461c758be44a.png)
+![1](https://user-images.githubusercontent.com/8418700/142764009-aa9a52b6-6720-4234-a03e-14308be43a74.png)
 
 ![2](https://user-images.githubusercontent.com/8418700/142763957-277875ee-fa87-49a7-8cf0-e469a17ddaf4.png)
 
