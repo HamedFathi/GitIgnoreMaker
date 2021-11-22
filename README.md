@@ -1,5 +1,4 @@
-![git](https://user-images.githubusercontent.com/8418700/141340397-ba46ceee-ffee-4e02-a33e-372967fce97e.png)
-
+![git](https://user-images.githubusercontent.com/8418700/142907799-033929a7-f48a-4052-b235-7bdff33a6f33.png)
 
 This library works based on [gitignore](https://www.toptal.com/developers/gitignore) REST APIs.
 
